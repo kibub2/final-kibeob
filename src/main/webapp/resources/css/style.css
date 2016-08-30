@@ -366,27 +366,27 @@ table { background: #fff; }
 .header .navbar-default .navbar-nav > li ul.dropdown-md a.btn{ margin-top: 8px; }
 
 /*
- * Cart Link
+ * Login Link
  */
 
-.btn-cart-md { float: right; }
+.btn-login-md { float: right; }
 
-.btn-cart-md a i {
+.btn-login-md a i {
 	display: inline-block;
 	margin-right: 6px;
 }
 
-.btn-cart-md a.cart-link {
+.btn-login-md a.login-link {
 	font-size: 14px;
 	font-weight: 700;
 }
 
-.btn-cart-md a.cart-link img {
+.btn-login-md a.login-link img {
 	max-width: 40px;
 	float: left;
 }
 
-.btn-cart-md a.cart-link h4 {
+.btn-login-md a.login-link h4 {
 	margin: 0;
 	margin-left: 50px;
 	margin-top: 1px;
@@ -398,7 +398,7 @@ table { background: #fff; }
 	text-transform: uppercase;
 }
 
-.btn-cart-md a.cart-link span {
+.btn-login-md a.login-link span {
 	display: block;
 	margin-left: 50px;
 	font-size: 16px;
@@ -406,7 +406,11 @@ table { background: #fff; }
 	color: #9a9a9a;
 }
 
-.btn-cart-md .cart-dropdown { 
+.btn-login-md a.login-link span:hover {
+	color: hotpink;
+}
+
+.btn-login-md .login-dropdown { 
 	position: absolute;
 	top: 55px;
 	right: 0;
@@ -421,8 +425,8 @@ table { background: #fff; }
 	display: none;
 }
 
-.btn-cart-md .cart-dropdown:after,
-.btn-cart-md .cart-dropdown:before {
+.btn-login-md .login-dropdown:after,
+.btn-login-md .login-dropdown:before {
 	bottom: 100%;
 	border: solid transparent;
 	content: " ";
@@ -432,50 +436,50 @@ table { background: #fff; }
 	pointer-events: none;
 }
 
-.btn-cart-md .cart-dropdown:after {
+.btn-login-md .login-dropdown:after {
 	border-color: rgba(75, 170, 211, 0);
 	border-width: 6px;
 	border-bottom-color: transparent;
 }
 
-.btn-cart-md .cart-dropdown:before {
+.btn-login-md .login-dropdown:before {
 	margin-right: -3px;
 	border-color: rgba(75, 170, 211, 0);
 	border-width: 9px;
 }
 
-.btn-cart-md .cart-dropdown:after, 
-.btn-cart-md .cart-dropdown:before { right: 46%; }
-.cart-dropdown .cart-item {
+.btn-login-md .login-dropdown:after, 
+.btn-login-md .login-dropdown:before { right: 46%; }
+.login-dropdown .login-item {
 	position: relative;
 	padding: 12px 10px;
 	border-bottom: 1px dotted #eee;
 }
 
-.cart-dropdown li:last-child .cart-item { border-bottom: 0; }
+.login-dropdown li:last-child .login-item { border-bottom: 0; }
 
-.cart-dropdown .cart-item  i{
+.login-dropdown .login-item  i{
 	position: absolute;
 	top: 10px;
 	right: 5px;
 	color: #ccc;
 }
 
-.cart-dropdown .cart-item a.btn { 
+.login-dropdown .login-item a.btn { 
 	width: 100%;
 	color: #fff;
 }
 
-.cart-dropdown .cart-item img {
+.login-dropdown .login-item img {
 	max-width: 60px;
 	float: left;
 	border: 2px solid #fff;
 	box-shadow: 0px 0px 5px rgba(0,0,0,0.25);
 }
 
-.cart-dropdown .cart-item span { display: block; margin-left: 70px }
-.cart-dropdown .cart-item span.cart-title { font-size: 15px; }
-.cart-dropdown .cart-item span.cart-price { display:inline-block; font-weight: 700; }
+.login-dropdown .login-item span { display: block; margin-left: 70px }
+.login-dropdown .login-item span.login-title { font-size: 15px; }
+.login-dropdown .login-item span.cart-price { display:inline-block; font-weight: 700; }
 
 /*
  * -	SETTINGS FOR BANNER CONTAINERS	-
@@ -1999,14 +2003,14 @@ div.ppt { display:none !important; }
 		line-height: 21px;
 	}
 	
-	.btn-cart-md { 
+	.btn-login-md { 
 		float: none;
 		max-width: 150px;
 		margin: 0 auto;
 		margin-top: 20px;
 	}
 	
-	.btn-cart-md .cart-dropdown { right: 50%; margin-right: -125px; }
+	.btn-login-md .login-dropdown { right: 50%; margin-right: -125px; }
 	.dishes .dishes-item-container {
 		max-width: 400px;
 		margin: 0 auto;
