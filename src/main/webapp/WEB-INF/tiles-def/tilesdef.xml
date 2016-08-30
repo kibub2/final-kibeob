@@ -17,11 +17,11 @@
     <definition name="menu1" extends="index">
         <put-attribute name="body"   value="/WEB-INF/views/body-menu1.jsp"/>
     </definition>
-	
 	<definition name="menu2" extends="index">
         <put-attribute name="body"   value="/WEB-INF/views/body-menu2.jsp"/>
     </definition>
     <definition name="index2" extends="index">
         <put-attribute name="body"   value="/WEB-INF/views/body-index2.jsp"/>
-    </definition> -->
+    </definition>
+     -->
 </tiles-definitions>
