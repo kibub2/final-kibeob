@@ -25,8 +25,8 @@
 		</div>
 		<div class="col-md-4 col-sm-4">
 			<!-- 로그인 버튼 시작 ▼ -->
-			<div class="btn-cart-md">
-				<a class="cart-link" href="#">
+			<div class="btn-login-md">
+				<a class="login-link" href="#">
 					<!-- Image -->
 					<img class="img-responsive" src="resources/img/login_icon_black.png" alt="" />
 					<!-- Heading -->
@@ -36,36 +36,36 @@
 				</a>
 				<!-- 드롭다운 시작 -->
 				<!--
-				<ul class="cart-dropdown" role="menu">
+				<ul class="login-dropdown" role="menu">
 					<li>
-						<div class="cart-item">
+						<div class="login-item">
 							<a href="#"><i class="fa fa-times"></i></a>
 							<img class="img-responsive img-rounded" src="resources/img/nav-menu/nav1.jpg" alt="" />
-							<span class="cart-title"><a href="#">Exception Reins Evocative</a></span>
+							<span class="login-title"><a href="#">Exception Reins Evocative</a></span>
 							<span class="cart-price pull-right red">$200/-</span>
 							<div class="clearfix"></div>
 						</div>
 					</li>
 					<li>
-						<div class="cart-item">
+						<div class="login-item">
 							<a href="#"><i class="fa fa-times"></i></a>
 							<img class="img-responsive img-rounded" src="resources/img/nav-menu/nav2.jpg" alt="" />
-							<span class="cart-title"><a href="#">Taut Mayoress Alias Appendicitis</a></span>
+							<span class="login-title"><a href="#">Taut Mayoress Alias Appendicitis</a></span>
 							<span class="cart-price pull-right red">$190/-</span>
 							<div class="clearfix"></div>
 						</div>
 					</li>
 					<li>
-						<div class="cart-item">
+						<div class="login-item">
 							<a href="#"><i class="fa fa-times"></i></a>
 							<img class="img-responsive img-rounded" src="resources/img/nav-menu/nav3.jpg" alt="" />
-							<span class="cart-title"><a href="#">Sinter et Molests Perfectionist</a></span>
+							<span class="login-title"><a href="#">Sinter et Molests Perfectionist</a></span>
 							<span class="cart-price pull-right red">$99/-</span>
 							<div class="clearfix"></div>
 						</div>
 					</li>
 					<li>
-						<div class="cart-item">
+						<div class="login-item">
 							<a class="btn btn-danger" data-toggle="modal" href="#shoppingcart1">Checkout</a>
 						</div>
 					</li>
