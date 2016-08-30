@@ -26,7 +26,7 @@
 		<div class="col-md-4 col-sm-4">
 			<!-- 로그인 버튼 시작 ▼ -->
 			<div class="btn-login-md">
-				<a class="login-link" href="#">
+				<a class="login-link" href="${pageContext.request.contextPath}/member/login.do">
 					<!-- Image -->
 					<img class="img-responsive" src="resources/img/login_icon_black.png" alt="" />
 					<!-- Heading -->
