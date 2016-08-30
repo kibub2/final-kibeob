@@ -6,7 +6,5 @@
 
 <tiles-definitions>
     <definition name="memberLogin" extends="index">
-    	<put-attribute name="title" value="로그인"/>
-    	<put-attribute name="body" value="/WEB-INF/views/member/memberLogin.jsp"/>
     </definition>
 </tiles-definitions>
